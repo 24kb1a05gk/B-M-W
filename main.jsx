@@ -1,7 +1,7 @@
 import React, { useState, useMemo } from 'react';
 import ReactDOM from 'react-dom/client';
-import { VEHICLE_DATABASE } from './vehiclesData';
-import HeaderSearch from './HeaderSearch';
+import { VEHICLE_DATABASE } from './vehiclesData.js';
+import HeaderSearch from './headersearch.jsx';
 import CarVisualizer from './CarVisualizer';
 import TradeInCalculator from './TradeInCalculator';
 

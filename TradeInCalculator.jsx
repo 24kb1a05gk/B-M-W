@@ -65,7 +65,7 @@ export default function TradeInCalculator({
           <div>
             <span className="text-xs text-neutral-400 uppercase block">Estimated Valuation Credit</span>
             <span className="text-xl font-bold text-emerald-500 font-mono">
-              -\${tradeInValue.toLocaleString()} Deductible
+              -${tradeInValue.toLocaleString()} Deductible
             </span>
           </div>
           <button
